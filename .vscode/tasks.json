@@ -8,7 +8,7 @@
             "type": "process",
             "command": "gcc",
             "args": [
-                "-g","intFloatDouble.c"
+                "-g","Swap2Num.c"
                 // Ask msbuild to generate full paths for file names.
                 //"/property:GenerateFullPaths=true",
                 //"/t:build"
