@@ -11,7 +11,7 @@ void main(){
         printf("\n%d number is even.......",d);
     }
          if(d<0){
-    printf("\n%d number is negtive......."),d;
+    printf("\n%d number is negtive.......",d);
     }
     while(getchar()!="\n");
     }
