@@ -2,10 +2,10 @@
 //#include<conio.h>
 int main(){
   
-    int d;
+    int num;
     printf("\nEnter a month date:==");
-    scanf("%d",&d);
-    switch(d){
+    scanf("%d",&num);
+    switch(num){
         case 1:
         printf("January");
         break;
@@ -44,8 +44,8 @@ int main(){
         break;
         default:
         printf("Enter a valid number from 1-12");
-        getchar();                
+                   
     }
-    getchar();
+    while(getchar()!="\n");
     return 0;
 }
