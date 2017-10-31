@@ -4,7 +4,7 @@ void main(){
 float circle,r;
 int s,l,b,rect,squ;
 printf("\nEnter side:==");
-scanf("%f",&s);
+scanf("%d",&s);
 printf("\nEnter radius:==");
 scanf("%f",&r);
 printf("\nEnter base and hight:");
@@ -15,5 +15,6 @@ rect=l*b;
 printf("\nArea of circle =%f",circle);
 printf("\nArea of square =%f",squ);
 printf("\nArea of rectangle=%f",rect);
+
 getchar();
 }
