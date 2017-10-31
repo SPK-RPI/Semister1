@@ -1,17 +1,17 @@
 #include<stdio.h>
 //#include<conio.h>
-int main(){
+void main(){
     int d;
-    printf("\nEnter a number:== ");
+    printf("\nEnter a number:==");
     scanf("%d",&d);
     if(d==0){
-        printf("\nEntered number is Zero.........");
+        printf("\n%d number is Zero.........",d);
     }
     if(d>0){
-        printf("\nEntered number is even.......");
+        printf("\n%d number is even.......",d);
     }
          if(d<0){
-    printf("\nEntered number is negtive.......");
+    printf("\n%d number is negtive......."),d;
     }
     while(getchar()!="\n");
     }
