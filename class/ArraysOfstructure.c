@@ -6,7 +6,7 @@ int i;
 struct book{
     char book_name[20];
     int pages;
-    int pages;
+    int prices;
 }book[3];
 
 
@@ -14,13 +14,22 @@ struct book{
 void main(){
    
     for(i=0;i<3;i++){
-        printf("\nEnter book name===");
+        printf("Enter book name== ");
         gets(book[i].book_name);
-        printf("\nEnter no. of pages");
+        printf("\nEnter no. of pages== ");
         scanf("%d",&book[i].pages);
-        printf("\nEnter price");
-        scanf("");
-        printf("\nBook details");
-    }
+        printf("\nEnter price== ");
+        scanf("%d",&book[i].prices);
+       
+        
+}
+for(i=0;i<3;i++){
+    printf("\n=======Book details======= ");
+    printf("\nName of the book=%s",book[i].book_name);
+    printf("\nNo of pages=%d",book[i].pages);
+    printf("\n Price=%d",book[i].prices);
+}
 
+while(getchar()!="\n");
+getchar()
 }

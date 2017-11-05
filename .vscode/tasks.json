@@ -6,9 +6,9 @@
         {
             "taskName": "build",
             "type": "process",
-            "command": "gcc",
+            "command": "clang",
             "args": [
-                "-g","class/ArraysOfstructure.c"
+                "-g","class/if...else.c"
                 // Ask msbuild to generate full paths for file names.
                 //"/property:GenerateFullPaths=true",
                 //"/t:build"
@@ -16,7 +16,7 @@
             "group": "build",
             "presentation": {
                 // Reveal the output only if unrecognized errors occur.
-                "reveal": "silent"
+                "reveal": "always"
             },
             // Use the standard MS compiler pattern to detect errors, warnings and infos
             "problemMatcher": "$msCompile"
