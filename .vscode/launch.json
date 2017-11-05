@@ -10,8 +10,8 @@
                 "stopAtEntry": false,
                 "cwd": "${workspaceRoot}",
                 "environment": [],
-                "externalConsole": true,
-                "MIMode": "lldb",
+                "externalConsole": false,
+                "MIMode": "gdb",
                 //"miDebuggerPath": "/usr/bin/lldb",
                 "setupCommands": [
                     {
