@@ -3,8 +3,8 @@
 int main(){
 int i;
 do{
-    printf("%d",i);
+    printf("\n%d",i);
     i++;
-}while(i<=10);
+}while(i<=100);
 while(getchar()!="\n");
 }
