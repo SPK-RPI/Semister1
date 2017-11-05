@@ -8,7 +8,7 @@
             "type": "process",
             "command": "clang",
             "args": [
-                "-g","class/if...else.c"
+                "-g","class/stdio.c"
                 // Ask msbuild to generate full paths for file names.
                 //"/property:GenerateFullPaths=true",
                 //"/t:build"
