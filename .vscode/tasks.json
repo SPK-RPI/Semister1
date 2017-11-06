@@ -8,7 +8,7 @@
             "type": "process",
             "command": "clang",
             "args": [
-                "-g","class/test.c","-lm"
+                "-g","class/2Darrays.c","-lm"
                 // Ask msbuild to generate full paths for file names.
                 //"/property:GenerateFullPaths=true",
                 //"/t:build"
