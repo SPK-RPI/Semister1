@@ -4,11 +4,11 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "taskName": "build",
-            "type": "process",
-            "command": "clang",
+            "label": "build",
+            "type": "shell",
+            "command": "gcc",
             "args": [
-                "-g","sum1-100.c","-lm"
+                "-g","fabonic.c"
                 // Ask msbuild to generate full paths for file names.
                 //"/property:GenerateFullPaths=true",
                 //"/t:build"
@@ -16,7 +16,7 @@
             "group": "build",
             "presentation": {
                 // Reveal the output only if unrecognized errors occur.
-                "reveal": "always"
+                "reveal": "silent"
             },
             // Use the standard MS compiler pattern to detect errors, warnings and infos
             "problemMatcher": "$msCompile"
