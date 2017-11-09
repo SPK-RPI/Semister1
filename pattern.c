@@ -5,7 +5,7 @@ void main(){
     //clrscr();
     for(r=1;r<=5;r++){
         for(c=1;c<=r;c++){
-            printf("%d",r);
+            printf("%d",c);
         }
         printf("\n");
     }

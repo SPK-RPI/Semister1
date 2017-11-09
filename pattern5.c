@@ -3,12 +3,12 @@
 void main(){
     int r,c,s;
     //clrscr();
-    for(r=1;r<=5;r++){
-        for(s=1;s<=r;s--){
+    for(r=1;r<=40;r++){
+        for(s=40;s>=r;s--){
             printf(" ");
         }
         for(c=1;c<=r;c++){
-        printf("  *");
+        printf(" *");
         }
         printf("\n");
     }
