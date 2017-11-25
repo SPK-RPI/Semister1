@@ -12,8 +12,6 @@ struct Date {
 }dob;
 }emp1;
 
-
-
 int main(){
     strcpy(emp1.name,"shiba");
     emp1.id=101;
